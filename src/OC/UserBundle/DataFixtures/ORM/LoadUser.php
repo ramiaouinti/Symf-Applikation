@@ -12,7 +12,7 @@ class LoadUser implements FixtureInterface
   public function load(ObjectManager $manager)
   {
     // Les noms d'utilisateurs à créer
-    $listNames = array('Alexandre', 'Marine', 'Anna');
+    $listNames = array('Mohamed', 'Rami', 'Aouinti');
 
     foreach ($listNames as $name) {
       // On crée l'utilisateur
